@@ -1,3 +1,4 @@
+=begin
 def find_element_index(array, value_to_find)
   myarray = []
   length = array.length
@@ -8,7 +9,7 @@ end
   return value_to_find
 end 
 
-=begin
+
 Use:
 
 myarray.index "valuetoFind"
@@ -25,9 +26,13 @@ arr.select {|e| e%3 == 0} #=> [ 6, 9 ]
 6.in?
 
 
-
+=end
 def find_max_value(array)
-  # Add your solution here
+  array.max_by do |element|
+  element.field
+end
+
+# Add your solution here
 end
 
 def find_min_value(array)
