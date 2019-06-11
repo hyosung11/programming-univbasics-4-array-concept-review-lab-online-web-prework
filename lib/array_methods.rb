@@ -1,9 +1,16 @@
 def find_element_index(array, value_to_find)
-  array = []
-  array.length.times {|index|
-    puts array[index]
-  }
+  myarray.index value_to_find
 end
+
+
+=begin
+Use:
+
+myarray.index "valuetoFind"
+
+That will return you the index of the element you want or nil if your array doesn't contain the value.
+
+
 
 def find_max_value(array)
   # Add your solution here
