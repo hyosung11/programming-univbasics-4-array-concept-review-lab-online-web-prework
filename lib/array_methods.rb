@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  
+  myarray = []
   myarray.index value_to_find
 end
   return value_to_find
